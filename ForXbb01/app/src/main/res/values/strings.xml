@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">"小露露(*˘︶˘*).｡.:*♡ "</string>
+    <string name="app_version" >1.0.0 Beta 测试版</string>
+    <string name="title">猜猜我是谁？</string>
+    <string name="unknown">？</string>
+    <string name="unknown_big">？？？？？</string>
+    <string name="xsh">小骚货</string>
+    <string name="xka">小可爱</string>
+    <string name="img">img</string>
+</resources>

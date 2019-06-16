@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LocalLanguageDemo</string>
+    <string name="welcome">Welcome!</string>
+    <string name="description">This is a message.</string>
+</resources>
