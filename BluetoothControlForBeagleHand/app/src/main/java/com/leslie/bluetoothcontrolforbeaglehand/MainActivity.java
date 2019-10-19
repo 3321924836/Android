@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             if (action.equals(BluetoothDevice.ACTION_FOUND)) {
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
                 textView.setText(textView.getText() + "\n" + device.getAddress());
-                if (device.getAddress().equals("EB:05:BF:88:EA:59")) {
+                if (device.getAddress().equals("B8:27:EB:D5:D3:FB")) {
                     device.createBond();
                 }
                 Devices.add(device);
@@ -54,13 +54,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         if (adapter != null) {
-            Toast.makeText(this, "设备支持蓝牙！", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Device supports Bluetooth!", Toast.LENGTH_SHORT).show();
         }
         if (!adapter.isEnabled()) {
             Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivity(enableBtIntent);
         }
-        //adapter.enable();//此方法，本机无法被外界设备发现
+        //adapter.enable();//
 
         IntentFilter discoveryFilter = new IntentFilter();
         discoveryFilter.addAction(BluetoothDevice.ACTION_FOUND);

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unit Conversion</string>
+    <string name="developer_name">Leslie Liu</string>
+    <string name="version">0.0.1 alpha</string>
+</resources>
