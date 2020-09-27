@@ -16,10 +16,10 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="已配对"
-            android:gravity="center"
             android:background="#707C74"
-            android:textColor="#FFFFFB"/>
+            android:gravity="center"
+            android:text="Bonded"
+            android:textColor="#FFFFFB" />
 
         <ListView
             android:id="@+id/pairedListView"
@@ -30,10 +30,10 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="未配对"
-            android:gravity="center"
             android:background="#707C74"
-            android:textColor="#FFFFFB"/>
+            android:gravity="center"
+            android:text="Unbonded"
+            android:textColor="#FFFFFB" />
 
         <ListView
             android:id="@+id/unPairedListView"
@@ -44,7 +44,7 @@
             android:id="@+id/cancelButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="取消" />
+            android:text="Cancle" />
 
     </LinearLayout>
 </LinearLayout>

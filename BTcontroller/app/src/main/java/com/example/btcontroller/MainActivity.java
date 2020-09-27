@@ -227,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
                     try {
                         mBluetoothSocket.connect();
                         Toast.makeText(this, "连接" + mBluetoothDevice.getName() + "成功！", Toast.LENGTH_SHORT).show();
-                        connectButton.setText("断开");
+                        connectButton.setText("Disconnect");
                     } catch (IOException e) {
                         try {
                             Toast.makeText(this, "连接失败！", Toast.LENGTH_SHORT).show();
