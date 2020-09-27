@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:background="#707C74"
             android:gravity="center"
-            android:text="Bonded"
+            android:text="连过的设备"
             android:textColor="#FFFFFB" />
 
         <ListView
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:background="#707C74"
             android:gravity="center"
-            android:text="Unbonded"
+            android:text="没连过的设备"
             android:textColor="#FFFFFB" />
 
         <ListView
@@ -44,7 +44,7 @@
             android:id="@+id/cancelButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cancle" />
+            android:text="取消" />
 
     </LinearLayout>
 </LinearLayout>
