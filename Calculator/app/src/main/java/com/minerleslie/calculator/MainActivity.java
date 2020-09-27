@@ -2,6 +2,7 @@ package com.minerleslie.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,14 +10,25 @@ import android.widget.TextView;
 
 import java.util.Stack;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button button0, button1, button2, button3, button4, button5, button6, button7, button8, button9, buttonMinus, buttonPlus, buttonTimes, buttonEqual, buttonCE, buttonDot;
     private String expression;
     private TextView expressionView;
 
     private String getAnswer(String expression) {
-        Stack stack = new Stack();
+        Stack<Integer> stack = new Stack<Integer>();
+        int length = expression.length();
+        int index=0;
+        while(index<length){
+
+        }
+
         return new String();
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 
     @Override
@@ -150,7 +162,8 @@ public class MainActivity extends AppCompatActivity {
         buttonEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //expression=getAnswer(expression);
+                //MyCalculator myCalculator=new MyCalculator(expression);
+                //expression=myCalculator.getAnswer.toString();
                 expressionView.setText(expression);
             }
         });

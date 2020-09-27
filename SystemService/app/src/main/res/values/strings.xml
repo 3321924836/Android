@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SystemService</string>
+    <string name="button_text_1">Vibration</string>
+    <string name="button_text_2">Alarm</string>
+    <string name="button_text_3">Carrier Name</string>
+</resources>
